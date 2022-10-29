@@ -1,0 +1,56 @@
+.galeria {
+	margin-top: 70vw;
+	height: 70vw;
+	background-color: #dfdfdf;
+	background-image: url("../src/back-img-02.jpg") !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.galeria .overlay {
+	height: 70vw;
+	width: 100%;
+	background-image: linear-gradient(to right, #2c9424, black);
+	opacity: 70%;
+}
+
+.galeria .card {
+	position: relative;
+	top: -63vw;
+	padding: 1.5rem;
+}
+
+.galeria .card-body {
+	text-align: justify;
+}
+
+.galeria .card-body .img {
+	margin: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.galeria-grid img {
+	width: 550px;
+	height: 300px;
+
+	filter: grayscale(90%);
+}
+
+.galeria-grid .mb-2rem {
+	margin-bottom: 2rem;
+}
+
+#modal-imagem {
+	width: 700px;
+	height: 450px;
+
+	position: absolute;
+	left: -75px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}

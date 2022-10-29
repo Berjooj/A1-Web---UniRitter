@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/carousel.css">
 	<link rel="stylesheet" type="text/css" href="css/instituto.css">
+	<link rel="stylesheet" type="text/css" href="css/extra-info.css">
+	<link rel="stylesheet" type="text/css" href="css/galery.css">
 	<title>Website</title>
 	<script src="js/jquery-3.6.1.js"></script>
 	<script src="js/index.js"></script>
@@ -19,6 +21,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="js/index.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,7 +32,9 @@
 	<div class="content">
 		<?php
 			include "components/carousel.html";
+			include "components/extra-info.html";
 			include "components/institucional.html";
+			include "components/galery.html";
 		?>
 	</div>
 </body>
