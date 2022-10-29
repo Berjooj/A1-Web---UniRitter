@@ -1,77 +1,67 @@
-#header {
-	display: flex;
-	flex-flow: column;
+#header #div-institucional {
 	width: 100%;
-}
-
-#header #nav-institucional {
-	width: 100%;
-	height: 45px;
-	background-color: rgb(116, 160, 146);
-	display: flex;
-	justify-content: flex-end;
-}
-
-#header #nav-menu {
-	width: 100%;
-	height: 80px;
-	background-color: aquamarine;
-	display: flex;
-}
-
-#header #nav-institucional #div-institucional {
-	background-color: antiquewhite;
-	position: relative;
-	/* margin-top: 5px; */
-	width: 45%;
-	height: 55px;
-}
-
-#header #nav-institucional #div-institucional ul {
-	margin: 0 0 0 5rem;
-	height: 50px;
-	display: flex;
-	justify-content: flex-end;
-	margin-right: 15rem;
-}
-
-#header #nav-institucional #div-institucional ul li:first-child {
-	margin-right: 1rem;
-}
-
-#header #nav-institucional #div-institucional ul li {
-	list-style-type: none;
-	margin-top: auto;
-	margin-bottom: auto;
-	text-align: end;
-}
-
-#header #nav-menu {
+	height: 40px;
+	background-color: #343a40;
 	display: flex;
 	justify-content: space-between;
 }
 
-#header #nav-menu img {
-	margin-left: 15rem;
-	width: 250px;
+#header #div-institucional p {
+	margin-left: 5rem;
+	line-height: 2.2;
+	color: #dfdfdf;
 }
 
-#header #nav-menu ul {
+#header #div-institucional nav {
+	position: relative;
+	top: 3px;
+	width: 50%;
+	height: 42px;
+	font-size: 0.85rem;
+	background-color: #2c9424 !important;
+	z-index: 3;
+}
+
+#header #div-institucional .nav-link:hover {
+	color: rgb(190, 190, 190);
+}
+
+#header #div-institucional .nav-link {
+	color: #dfdfdf;
+}
+
+#header #div-menu .nav-link:hover {
+	color: rgb(190, 190, 190);
+}
+
+.nav-instituto a {
+	color: #343a40;
+}
+
+.nav-instituto a:hover {
+	color: rgb(190, 190, 190);
+}
+
+.vr {
+	position: relative;
+	top: 5px;
+	height: 25px;
+	width: 1px;
+	background-color: #aaaaaa;
+	border-radius: 150px;
+}
+
+#header #nav-menu {
 	display: flex;
-	justify-content: center;
-	margin-right: 15rem;
+	flex-flow: row;
 }
 
-#header #nav-menu ul li:not(#header #nav-menu ul li:last-child) {
-	margin-right: 1rem;
+#header #nav-menu nav {
+	width: 100%;
+	height: 8vw;
 }
 
-#header #nav-menu ul li {
-	list-style-type: none;
-
-	margin-top: auto;
-	margin-bottom: auto;
-
-	background-color: aqua;
-	text-align: end;
+#header #nav-menu img {
+	height: 7vw;
+	margin-left: 5rem;
 }

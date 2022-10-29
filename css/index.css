@@ -1,5 +1,13 @@
 body {
+	background-color: #343a40 !important;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
+
+.color1 { color: #ce2325 }
+.color2 { color: #dfdfdf }
+.color3 { color: #2c9424 }
+.color4 { color: #5fac5c }
+.color5 { color: #b0caaa }
+.color5 { color: #343a40 }
