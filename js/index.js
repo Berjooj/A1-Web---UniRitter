@@ -15,4 +15,9 @@ $(document).ready(function ()
 		$("#modal").modal("toggle");
 		$("#modal-imagem").attr("src", $(this).attr("src"))
 	});
+
+	$(".continue-reading").on("click", function ()
+	{
+		$("#modal-news").modal("toggle");
+	});
 });

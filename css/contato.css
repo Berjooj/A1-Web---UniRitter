@@ -1,8 +1,8 @@
-.galeria {
+.contato {
 	height: 72vw;
 }
 
-.galeria .content {
+.contato .content {
 	margin-top: 1rem;
 	height: 70vw;
 	background-color: #dfdfdf;
@@ -12,38 +12,38 @@
 	background-position: 50% 50%;
 }
 
-.galeria .overlay {
+.contato .overlay {
 	height: 70vw;
 	width: 100%;
 	background-image: linear-gradient(to right, #2c9424, black);
 	opacity: 70%;
 }
 
-.galeria .card {
+.contato .card {
 	position: relative;
 	top: -63vw;
 	padding: 1.5rem;
 }
 
-.galeria .card-body {
+.contato .card-body {
 	text-align: justify;
 }
 
-.galeria .card-body .img {
+.contato .card-body .img {
 	margin: 1rem;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
 
-.galeria-grid img {
+.contato-grid img {
 	width: 550px;
 	height: 300px;
 
 	filter: grayscale(90%);
 }
 
-.galeria-grid .mb-2rem {
+.contato-grid .mb-2rem {
 	margin-bottom: 2rem;
 }
 

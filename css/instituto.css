@@ -1,4 +1,8 @@
 .instituto {
+	height: 102vw;
+}
+
+.instituto .content {
 	height: 35vw;
 	background-color: #dfdfdf;
 	background-image: url("../src/back-img-01.jpg") !important;
