@@ -1,10 +1,6 @@
-.contato {
-	height: 72vw;
-}
-
 .contato .content {
 	margin-top: 1rem;
-	height: 70vw;
+	height: 900px;
 	background-color: #dfdfdf;
 	background-image: url("../src/back-img-02.jpg") !important;
 	background-size: cover;
@@ -13,7 +9,7 @@
 }
 
 .contato .overlay {
-	height: 70vw;
+	height: 900px;
 	width: 100%;
 	background-image: linear-gradient(to right, #2c9424, black);
 	opacity: 70%;
@@ -21,7 +17,7 @@
 
 .contato .card {
 	position: relative;
-	top: -63vw;
+	top: -800px;
 	padding: 1.5rem;
 }
 

@@ -21,8 +21,8 @@
 	<link href="src/fontawesome-free-6.2.0-web/css/brands.css" rel="stylesheet">
 	<link href="src/fontawesome-free-6.2.0-web/css/solid.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src="js/bootstrap/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" crossorigin="anonymous">
+	<script src="js/bootstrap/bootstrap.min.js" crossorigin="anonymous"></script>
 	<script src="js/index.js" crossorigin="anonymous"></script>
 </head>
 

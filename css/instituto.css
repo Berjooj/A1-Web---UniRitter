@@ -1,9 +1,9 @@
 .instituto {
-	height: 102vw;
+	height: 1400px;
 }
 
 .instituto .content {
-	height: 35vw;
+	height: 675px;
 	background-color: #dfdfdf;
 	background-image: url("../src/back-img-01.jpg") !important;
 	background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 }
 
 .instituto .overlay {
-	height: 35vw;
+	height: 675px;
 	width: 100%;
 	background-image: linear-gradient(to right, #2c9424, black);
 	opacity: 70%;
@@ -19,7 +19,7 @@
 
 .instituto .card {
 	position: relative;
-	top: -15vw;
+	top: -375px;
 	padding: 1.5rem;
 }
 
@@ -36,4 +36,16 @@
 
 .instituto .card-body img {
 	width: 600px;
+}
+
+@media screen and (max-width: 1350px) {
+	.instituto {
+		height: 1450px;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.instituto {
+		height: 1600px;
+	}
 }
