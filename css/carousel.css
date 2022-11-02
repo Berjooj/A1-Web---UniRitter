@@ -1,13 +1,9 @@
 #carouselExampleIndicators {
-	max-height: 47vw;
+	height: 700px;
 }
 
 .carousel-img {
-	height: 47vw;
+	height: 700px;
 	margin-right: auto;
 	margin-left: auto;
-}
-
-.carousel-img:last-child {
-	width: 100%;
 }

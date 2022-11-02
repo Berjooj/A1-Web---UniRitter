@@ -42,3 +42,17 @@
 .contato-grid .mb-2rem {
 	margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 890px) {
+	.contato .content {
+		height: 1300px;
+	}
+
+	.contato .overlay {
+		height: 1300px;
+	}
+
+	.contato .card {
+		top: -1250px;
+	}
+}
