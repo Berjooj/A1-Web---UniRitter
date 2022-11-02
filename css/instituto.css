@@ -1,8 +1,8 @@
-.instituto {
-	height: 1400px;
+#instituto {
+	height: 1250px;
 }
 
-.instituto .content {
+#instituto .content {
 	height: 675px;
 	background-color: #dfdfdf;
 	background-image: url("../src/back-img-01.jpg") !important;
@@ -10,42 +10,46 @@
 	background-position: 0% 40%;
 }
 
-.instituto .overlay {
+#instituto .overlay {
 	height: 675px;
 	width: 100%;
 	background-image: linear-gradient(to right, #2c9424, black);
 	opacity: 70%;
 }
 
-.instituto .card {
+#instituto .card {
 	position: relative;
-	top: -375px;
+	top: -550px;
 	padding: 1.5rem;
 }
 
-.instituto .card-body {
+#instituto .card-body {
 	text-align: justify;
 }
 
-.instituto .card-body .img {
+#instituto .card-body .img {
 	margin: 1rem;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
 
-.instituto .card-body img {
+#instituto .card-body img {
 	width: 600px;
 }
 
 @media screen and (max-width: 1350px) {
-	.instituto {
-		height: 1450px;
+	#instituto {
+		height: 1300px;
+	}
+
+	.card-title {
+		text-align: start !important;
 	}
 }
 
 @media screen and (max-width: 940px) {
-	.instituto {
+	#instituto {
 		height: 1600px;
 	}
 }

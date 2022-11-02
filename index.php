@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" crossorigin="anonymous">
 	<script src="js/bootstrap/bootstrap.min.js" crossorigin="anonymous"></script>
 	<script src="js/index.js" crossorigin="anonymous"></script>
+	<script src="js/imask.js"></script>
 </head>
 
 <body>
@@ -39,6 +40,7 @@
 			include "components/extra-info.html";
 			include "components/institucional.html";
 			include "components/contato.html";
+			include "components/footer.html";
 		?>
 	</div>
 </body>

@@ -1,6 +1,6 @@
 .contato .content {
 	margin-top: 1rem;
-	height: 900px;
+	height: 1150px;
 	background-color: #dfdfdf;
 	background-image: url("../src/back-img-02.jpg") !important;
 	background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 .contato .overlay {
-	height: 900px;
+	height: 1150px;
 	width: 100%;
 	background-image: linear-gradient(to right, #2c9424, black);
 	opacity: 70%;
@@ -17,7 +17,7 @@
 
 .contato .card {
 	position: relative;
-	top: -800px;
+	top: -1050px;
 	padding: 1.5rem;
 }
 
@@ -41,16 +41,4 @@
 
 .contato-grid .mb-2rem {
 	margin-bottom: 2rem;
-}
-
-#modal-imagem {
-	width: 700px;
-	height: 450px;
-
-	position: absolute;
-	left: -75px;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
 }
